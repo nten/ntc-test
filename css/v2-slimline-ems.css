@@ -1,0 +1,701 @@
+/* core */
+/*
+.ContentItemHtml, .ContentUserControl {
+	padding:0px;
+	background: none;
+	box-shadow: none !important;
+}*/
+.ContentUserControl div.Content
+{
+    /* padding: 5px 10px 10px 10px; */
+}
+
+.Container
+{
+    margin-bottom: 10px;
+}
+.Container thead .header td, .Container thead .Header td, .TableHeader th
+{
+    padding: 10px;
+    font-size: 116%;
+    font-weight: bold;
+}
+.Container .SubHead td
+{
+    padding: 4px;
+    font-weight: normal;
+    border-left: none;
+    border-right: none;
+}
+.Container .SubHead .FirstColumn
+{
+    text-indent: 10px;
+}
+.Container .ContainerRow .FirstColumn, .Container .ContainerAlternativeRow .FirstColumn
+{
+    text-indent: 14px;
+}
+.Container thead .Header td, th, .DGHBottom, .ListContainer .ListHeader, .drItemSubHeader
+{
+    color: #fff;
+}
+.MPContentSection
+{
+    float: none;
+}
+
+.Content div.InboxMessages
+{
+    border-bottom: 1px dotted #AFB1B3;
+    margin-bottom: 7px;
+    padding: 8px;
+}
+
+.MPNavBar
+{
+    height: auto !important;
+    min-height: 20px;
+}
+.MPFooter
+{
+    /* height: auto; */
+    min-height: 1.5em;
+}
+
+.MenuBarUnderline
+{
+    /* margin-top: -1px; */
+}
+
+#MPAuxNav ul.level1 li a.level1
+{
+    border-right: 1px solid #888;
+}
+#MPAuxNav ul.level1 li.static:last-child, #BottomMenu ul.level1 li.static:last-child
+{
+    border-right: none;
+}
+
+#MPSearchBlock .Watermark, #MPSearchBlock .TextBox
+{
+    /* border: 1px solid #C4C4C4 !important; */
+    /* margin-top: 3px !important; */
+    padding: 0.1em;
+    cursor: text !important;
+    /* -webkit-box-shadow: inset 0 1px 2px #ddd !important; */
+    -moz-box-shadow: inset 0 1px 2px #ddd !important;
+    /* box-shadow: inset 0 1px 2px #ddd !important; */
+    border-radius: 0.3em;
+    height: 100%;
+    margin: 0;
+}
+#MPSearchBlock .Button
+{
+    background: url('http://cdn.hlm2.com/App_Themes/Common/Images/mag.png') 4px 5px no-repeat;
+}
+#FooterContent .ContentItemHtml
+{
+    float: right;
+}
+
+.MyDocumentsPage div.Content
+{
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border-color: transparent;
+    color: #333333;
+}
+.MyDocumentsPage div.Content div.HLContainer
+{
+    border-bottom: 1px dotted #AFB1B3;
+    clear: both;
+    height: auto !important;
+    margin-bottom: 7px;
+    min-height: 10px;
+    padding: 8px;
+    word-wrap: break-word;
+}
+
+.commRecentBlogs div.Content
+{
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: none;
+    border: transparent;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+.commEventList div.Content
+{
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: none;
+    border: transparent;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+.profDiscussionPostings div.Content
+{
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: none;
+    border: transparent;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+.profSharedFiles div.Content
+{
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: none;
+    border: transparent;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+.Content div.horizontalRule hr
+{
+    background-color: none;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    height: 0;
+    margin: 20px auto;
+    width: 100%;
+}
+.HLEventList div.Content
+{
+    /* background-color: #FFFFFF; */
+    /* color: #333333; */
+}
+.HLMyDocuments div.Content
+{
+    background-color: #FFFFFF;
+    color: #333333;
+}
+.profileContentSpacing div.ContentItemHtml, div.ContentUserControl
+{
+    padding: 0;
+}
+#HomePlaceHolder
+{
+    /* padding: 0px; */
+}
+
+/*HLLanding Control*/
+.HLLandingControl h3
+{
+    font-size: 12px;
+}
+.HLLandingControl a
+{
+    font-family: arial;
+    font-size: .95em;
+    text-decoration: underline;
+}
+.HLLandingControl a:hover
+{
+    text-decoration: none;
+}
+.HLLandingControl .Content a:hover
+{
+    text-decoration: none;
+}
+.HLLandingControl h2
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Arial; /*color: #b6d8e9;   need to let the color picker set these 	background-color: #3789FF;*/
+    padding-bottom: 5px;
+}
+.HLLandingControl h3
+{
+    font-weight: normal;
+    line-height: 1.2em;
+}
+.HLLandingControl .Content h3
+{
+    margin: 3px 0 0 0;
+}
+.HLLandingControl .Content h3 a
+{
+    /* font-family: arial; */
+    font-size: 1em;
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+.HLLandingControl .Content h3
+{
+    /* font-family: arial; */
+    font-size: 1em;
+    /* font-weight: bold; */
+    /* text-decoration: none; */
+}
+.HLLandingControl .Content h3 a:hover
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+.HLLandingControl .Content
+{
+    /* border: 1px solid; */
+    /* padding: 15px 20px; */
+    /* background-image: url('http://cdn.hlm2.com/App_Themes/Common/Images/pfGradientBg.png'); */
+    /* background-position: 0px 0px; */
+    /* background-repeat: repeat-x; */
+}
+.HLLandingControl .Content .ByLine
+{
+    color: #808080;
+    margin: 0.2em;
+    font-size: 0.8em;
+}
+
+.HLLandingControl .Content h5
+{
+    color: #808080;
+    margin: 0.2em;
+    font-size: 0.8em;
+}
+.HLLandingControl .HLMyDocuments .Details
+{
+    width: 100%;
+    margin: 0px;
+}
+.HLLandingControl table
+{
+    width: 100%;
+}
+.HLLandingControl .ContainerTableProfile
+{
+    width: 10%;
+    vertical-align: top;
+}
+.HLLandingControl .ContainerTableDetails
+{
+    width: 90%;
+    vertical-align: top;
+}
+.HLLandingControl .Picture
+{
+    /* border: 0px; */
+}
+.HLLandingControl h2, .headerItem, .drItemSubHeader, .drItemSubHeader a
+{
+    font-size: 100%;
+}
+.HLLandingControl h2, .headerItem, .drItemSubHeader, .drItemSubHeader a
+{
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-radius: 0.5em 0.5em 0 0;
+    /* border-top-right-radius: 5px; */
+    padding: 0.2em;
+    font-size: inherit;
+}
+.HLLandingControl .Content a
+{
+    /* font-size: 1em; */
+}
+
+.HLLandingControl div.HtmlContent
+{
+    /* background-image: url("http://cdn.hlm2.com/App_Themes/Common/Images/pfGradientBg.png"); */
+    /* background-position: 0 0; */
+    /* background-repeat: repeat-x; */
+    /* border: 1px solid; */
+    padding: 0.2em;
+}
+/*allows for opting out of gradient and border*/
+.HeaderOnly div.HtmlContent
+{
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border: none;
+    padding: 15px 20px;
+}
+
+
+/*ButtonBarMenu - find out what messes up old menus*/
+#ButtonBarMenu ul li
+{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+#ButtonBarMenu, #ButtonBarMenu ul.level1 li a.level1
+{
+    /* height: 30px; */
+    /* padding: 0px; */
+}
+
+#ButtonBarMenu
+{
+    /* height: 32px; */
+}
+
+#ButtonBarMenu ul.level1 li.has-popup ul li.dynamic a, #ButtonBarMenu ul.level1 li:hover a, #ButtonBarMenu ul.level1 li a.selected
+{
+    border-bottom: 1px solid #bd0000;
+}
+#ButtonBarMenu ul.level1 li.has-popup a, #ButtonBarMenu ul.level1 li.static a
+{
+    padding: 7px 8px 11px !important;
+}
+
+#ButtonBarMenu ul.level1 li.has-popup a, #ButtonBarMenu ul.level1 li.static a
+{
+    border: none !important;
+}
+
+#MPButtonBar
+{
+    height: 1.5em;
+    /* font-size: 1.2em; */
+}
+
+#ButtonBarMenu
+{
+    /* height: 36px; */
+}
+#ButtonBarMenu ul.level1 li a
+{
+    padding-bottom: 10px;
+}
+
+
+/* aux menu */
+#AuxMenu ul li ul
+{
+    display: none;
+}
+
+#AuxMenu ul li
+{
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+/* bottom menu*/
+#BottomMenu ul.level1 li a.level1
+{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#BottomMenu ul.level1 li, table.FatFooterMenu ul.level1 li, .SuperMegaMenu li
+{
+    list-style: none outside none;
+}
+#BottomMenu ul.level1 li.static
+{
+    border-right: 1px solid #FFFFFF;
+}
+#BottomMenu ul.level1 li a.level1
+{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#BottomMenu ul.level1 li, table.FatFooterMenu ul.level1 li, .SuperMegaMenu li
+{
+    list-style: none outside none;
+}
+#BottomMenu ul.level1 li.static
+{
+    border-right: 1px solid #FFFFFF;
+}
+
+/*welcome box - all this stuff needs to be shielded... inside the header*/
+.HLWelcomeHeader .Content
+{
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
+
+.HLWelcomeHeader .Content
+{
+    margin-top: 0.3em;
+    margin-bottom: 0.2em;
+}
+
+.HLWelcomeHeader .Picture
+{
+    float: left;
+    /* width: 40px; */
+    /* margin-right: 12px; */
+    /* margin-top: 3px; */
+    /* padding: 1px; */
+    /* border: solid 1px #AFB1B3; */
+}
+.HLWelcomeHeader .Content
+{
+    /* border-bottom: 1px solid #AAA; */
+    /* border-right: 1px solid #AAA; */
+    /* border-left: 1px solid white; */
+    /* border-top: 1px solid white; */
+    box-shadow: 0 0 3px #aaa;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+.ProgressBarProgress
+{
+    background-image: url('http://cdn.hlm2.com/App_Themes/Common/Images/progress.png');
+    background-position-y: 16px;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+    webkit-border-radius: 10px;
+    border-bottom: 1px solid #333;
+    margin-left: -3px;
+}
+.ProgressBar
+{
+    margin: 3px 0 8px 0;
+    border: none;
+    background-color: #EBECED;
+}
+
+/*side nav maybe a hangover from what jason did*/
+.MPSideNav
+{
+    padding: 0px;
+}
+
+#SideMenuStatic, #SideMenuStatic ul
+{
+    width: 100% !important;
+}
+#SideMenuStatic, #SideMenuStatic ul
+{
+    width: 100% !important;
+}
+.SideMenu table
+{
+    width: 100%;
+}
+#SideMenuStatic ul.level1 li
+{
+    list-style: none outside none;
+}
+#MPSideNav ul.level1 li a.level2
+{
+    font-weight: normal;
+    padding-left: 3em;
+}
+
+.MPSideNavBottom
+{
+    font-size: 125%;
+}
+
+/* footer*/
+.MPFooter
+{
+    /* height: auto; */
+    /* min-height: 2em; */
+}
+
+
+/*ads - look at the mainsite and verify 
+.MPBottomAds {
+	display:block;
+}
+*/
+/*safe move to DONOTDELETE*/
+.OwnerBlock
+{
+    width: auto;
+}
+/*end safe*/
+
+
+/*field set*/
+/*safe - move to DONOTDELETE*/
+fieldset legend
+{
+    background-color: #999999;
+    border-color: #777777;
+    text-align: left;
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0 0 10px;
+    padding: 2px 5px;
+    position: relative;
+    top: -10px;
+    font-variant: normal;
+}
+FieldSet legend, legend
+{
+    background-color: #999999;
+    border-color: #777777;
+    text-align: left;
+    font-size: 100%;
+    font-weight: normal;
+    font-variant: normal;
+}
+.AdvancedSearch fieldset, fieldset, FieldSet
+{
+    background-color: #EBEBEB;
+    border: 1px solid #666666;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    margin-left: 15px;
+    width: 90%;
+}
+.fieldLegend hr
+{
+    display: none;
+}
+/* end safe*/
+
+
+/*search */
+
+/*safe, move to DONOTDELETE*/
+
+.SearchForm #hl-csslinkbutton
+{
+    float: none;
+    display: inline;
+    padding: 0px;
+}
+.AdvancedSearch .AdvancedButtons
+{
+    padding-top: 10px;
+    width: 90%;
+}
+.AdvancedSearch #hl-csslinkbutton
+{
+    padding-right: 10px;
+    float: right;
+}
+/*end safe*/
+
+.SearchResults .ItemContent
+{
+    border-bottom: 1px solid #ebebeb;
+}
+.HeaderStatusBar, .SearchResults .HeaderStatusBar
+{
+    padding: 8px 20px;
+}
+.ResultStatus
+{
+    display: inline;
+}
+.SearchResults .SortBy
+{
+    display: inline;
+    float: right;
+}
+.CollapseHeader, .AdvancedSearch .CollapseHeader
+{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+/* check with yoofi, if used, they need to go out to the cloud. check the old css, they might not be needed.*/
+.SortDESC
+{
+    background-image: url("images/sort-arrows-up.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 0 10px 0 0;
+    vertical-align: middle;
+}
+.SortASC
+{
+    background-image: url("images/sort-arrows-down.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 0 10px 0 0;
+    vertical-align: middle;
+}
+/*end check with yoofi*/
+
+.SearchResults div.ItemContent:hover
+{
+    background-color: transparent;
+}
+
+/* profile *//*blows out container on profile page...  - leave here*/
+.profileImageContainer
+{
+    padding: 10px;
+    border: 1px solid #ebebeb;
+}
+
+/*handle the ratings stars or recommended features - we'll have to test*/
+.ratingSkinning
+{
+    color: #666;
+    float: left;
+    margin: 0 0 0 8px;
+    font-size: .8em;
+}
+div.TotalRatingLike
+{
+    width: 100%;
+}
+
+/*Form styling for funneling  - test... likely yoofi's stuff - need to test*/
+.Funnel
+{
+    background-color: #ccc;
+}
+
+.funnelFormLeft
+{
+    width: 125px;
+    text-align: right;
+    float: left;
+    padding: 0 10px;
+}
+
+.funnelFormRight
+{
+    float: left;
+    text-align: left;
+}
+
+.funnelFormBlocks
+{
+    margin: 8px auto;
+}
+
+.editFunnelButtonContainer .Hint
+{
+    float: right;
+}
+
+.cmModalPopupBackgroundForPresenterText
+{
+    width: 725px;
+}
+.StatsBlock
+{
+    background-color: #F0F1EB;
+}
+
+.AboveContentBarLeft
+{
+    /* float: left; */
+    padding: 0.2em;
+}
+
+.AboveContentBarRight
+{
+    float: right;
+    padding: 10px 15px;
+}
+
+.AddEditSurround
+{
+    background: lightgray;
+    width: 980px;
+    margin: auto;
+    text-align: right;
+}
