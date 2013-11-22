@@ -12,28 +12,28 @@
 
 .Container
 {
-    margin-bottom: 10px;
+    margin-bottom: 2em;
 }
 .Container thead .header td, .Container thead .Header td, .TableHeader th
 {
-    padding: 10px;
-    font-size: 116%;
+    padding: 2em;
+    font-size: 100%;
     font-weight: bold;
 }
 .Container .SubHead td
 {
-    padding: 4px;
+    padding: 0.5em;
     font-weight: normal;
     border-left: none;
     border-right: none;
 }
 .Container .SubHead .FirstColumn
 {
-    text-indent: 10px;
+    text-indent: 1em;
 }
 .Container .ContainerRow .FirstColumn, .Container .ContainerAlternativeRow .FirstColumn
 {
-    text-indent: 14px;
+    text-indent: 1em;
 }
 .Container thead .Header td, th, .DGHBottom, .ListContainer .ListHeader, .drItemSubHeader
 {
@@ -47,14 +47,14 @@
 .Content div.InboxMessages
 {
     border-bottom: 1px dotted #AFB1B3;
-    margin-bottom: 7px;
-    padding: 8px;
+    margin-bottom: 0.5em;
+    padding: 1em;
 }
 
 .MPNavBar
 {
     height: auto !important;
-    min-height: 20px;
+    min-height: 2em;
 }
 .MPFooter
 {
@@ -112,9 +112,9 @@
     border-bottom: 1px dotted #AFB1B3;
     clear: both;
     height: auto !important;
-    margin-bottom: 7px;
-    min-height: 10px;
-    padding: 8px;
+    margin-bottom: 0.5em;
+    min-height: 1em;
+    padding: 0.5em;
     word-wrap: break-word;
 }
 
@@ -161,7 +161,7 @@
     border-radius: none;
     box-shadow: none;
     height: 0;
-    margin: 20px auto;
+    margin: 1em auto;
     width: 100%;
 }
 .HLEventList div.Content
@@ -186,7 +186,7 @@
 /*HLLanding Control*/
 .HLLandingControl h3
 {
-    font-size: 12px;
+    font-size: 1.2em;
 }
 .HLLandingControl a
 {
@@ -207,7 +207,7 @@
     font-size: 1.2em;
     font-weight: bold;
     font-family: Arial; /*color: #b6d8e9;   need to let the color picker set these 	background-color: #3789FF;*/
-    padding-bottom: 5px;
+    padding-bottom: 0.5em;
 }
 .HLLandingControl h3
 {
@@ -216,7 +216,7 @@
 }
 .HLLandingControl .Content h3
 {
-    margin: 3px 0 0 0;
+    margin: 0.2em 0 0 0;
 }
 .HLLandingControl .Content h3 a
 {
@@ -287,12 +287,11 @@
 }
 .HLLandingControl h2, .headerItem, .drItemSubHeader, .drItemSubHeader a
 {
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 0.5em;
+    -webkit-border-top-right-radius: 0.5em;
+    -moz-border-radius-topleft: 0.5em;
+    -moz-border-radius-topright: 0.5em;
     border-radius: 0.5em 0.5em 0 0;
-    /* border-top-right-radius: 5px; */
     padding: 0.2em;
     font-size: inherit;
 }
@@ -316,7 +315,7 @@
     background-position: 0 0;
     background-repeat: repeat-x;
     border: none;
-    padding: 15px 20px;
+    padding: 1em 2em;
 }
 
 
@@ -344,7 +343,7 @@
 }
 #ButtonBarMenu ul.level1 li.has-popup a, #ButtonBarMenu ul.level1 li.static a
 {
-    padding: 7px 8px 11px !important;
+    padding: 0.5em 0.5em 1em !important;
 }
 
 #ButtonBarMenu ul.level1 li.has-popup a, #ButtonBarMenu ul.level1 li.static a
@@ -364,7 +363,7 @@
 }
 #ButtonBarMenu ul.level1 li a
 {
-    padding-bottom: 10px;
+    padding-bottom: 1em;
 }
 
 
@@ -384,8 +383,8 @@
 /* bottom menu*/
 #BottomMenu ul.level1 li a.level1
 {
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 #BottomMenu ul.level1 li, table.FatFooterMenu ul.level1 li, .SuperMegaMenu li
 {
@@ -397,8 +396,8 @@
 }
 #BottomMenu ul.level1 li a.level1
 {
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 #BottomMenu ul.level1 li, table.FatFooterMenu ul.level1 li, .SuperMegaMenu li
 {
@@ -445,15 +444,15 @@
 {
     background-image: url('http://cdn.hlm2.com/App_Themes/Common/Images/progress.png');
     background-position-y: 16px;
-    border-radius: 10px;
-    moz-border-radius: 10px;
-    webkit-border-radius: 10px;
+    border-radius: 1em;
+    moz-border-radius: 1em;
+    webkit-border-radius: 1em;
     border-bottom: 1px solid #333;
-    margin-left: -3px;
+    margin-left: -0.3em;
 }
 .ProgressBar
 {
-    margin: 3px 0 8px 0;
+    margin: 0.2em 0 0.5em 0;
     border: none;
     background-color: #EBECED;
 }
@@ -522,9 +521,9 @@ fieldset legend
     font-size: 100%;
     font-weight: normal;
     margin: 0 0 10px;
-    padding: 2px 5px;
+    padding: 0.2em 0.5em;
     position: relative;
-    top: -10px;
+    top: -1em;
     font-variant: normal;
 }
 FieldSet legend, legend
@@ -540,9 +539,9 @@ FieldSet legend, legend
 {
     background-color: #EBEBEB;
     border: 1px solid #666666;
-    margin-bottom: 2px;
-    margin-top: 4px;
-    margin-left: 15px;
+    margin-bottom: 0.2em;
+    margin-top: 0.3em;
+    margin-left: 1em;
     width: 90%;
 }
 .fieldLegend hr
@@ -564,12 +563,12 @@ FieldSet legend, legend
 }
 .AdvancedSearch .AdvancedButtons
 {
-    padding-top: 10px;
+    padding-top: 1em;
     width: 90%;
 }
 .AdvancedSearch #hl-csslinkbutton
 {
-    padding-right: 10px;
+    padding-right: 1em;
     float: right;
 }
 /*end safe*/
@@ -580,7 +579,7 @@ FieldSet legend, legend
 }
 .HeaderStatusBar, .SearchResults .HeaderStatusBar
 {
-    padding: 8px 20px;
+    padding: 0.5em 2em;
 }
 .ResultStatus
 {
@@ -593,9 +592,9 @@ FieldSet legend, legend
 }
 .CollapseHeader, .AdvancedSearch .CollapseHeader
 {
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
 }
 /* check with yoofi, if used, they need to go out to the cloud. check the old css, they might not be needed.*/
 .SortDESC
@@ -611,7 +610,7 @@ FieldSet legend, legend
     background-image: url("images/sort-arrows-down.png");
     background-position: right center;
     background-repeat: no-repeat;
-    padding: 0 10px 0 0;
+    padding: 0 1em 0 0;
     vertical-align: middle;
 }
 /*end check with yoofi*/
@@ -624,14 +623,14 @@ FieldSet legend, legend
 /* profile *//*blows out container on profile page...  - leave here*/
 .profileImageContainer
 {
-    padding: 10px;
+    padding: 1em;
     border: 1px solid #ebebeb;
 }
 
 /*handle the ratings stars or recommended features - we'll have to test*/
 .ratingSkinning
 {
-    color: #666;
+    color: #777;
     float: left;
     margin: 0 0 0 8px;
     font-size: .8em;
@@ -649,10 +648,10 @@ div.TotalRatingLike
 
 .funnelFormLeft
 {
-    width: 125px;
+    width: 12em;
     text-align: right;
     float: left;
-    padding: 0 10px;
+    padding: 0 1em;
 }
 
 .funnelFormRight
@@ -663,7 +662,7 @@ div.TotalRatingLike
 
 .funnelFormBlocks
 {
-    margin: 8px auto;
+    margin: 0.5em auto;
 }
 
 .editFunnelButtonContainer .Hint
@@ -673,7 +672,7 @@ div.TotalRatingLike
 
 .cmModalPopupBackgroundForPresenterText
 {
-    width: 725px;
+    width: 72em;
 }
 .StatsBlock
 {
@@ -689,13 +688,13 @@ div.TotalRatingLike
 .AboveContentBarRight
 {
     float: right;
-    padding: 10px 15px;
+    padding: 1em 1em;
 }
 
 .AddEditSurround
 {
     background: lightgray;
-    width: 980px;
+    width: 98em;
     margin: auto;
     text-align: right;
 }
