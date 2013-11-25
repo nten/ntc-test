@@ -681,6 +681,12 @@ fieldSet legend, legend
 {
     list-style: none outside none;
 }
+#Logo, 
+#LeftToLogo,
+#RightToLogo
+{
+    min-height:0;
+}
 #MPSideNav ul.level1 li a.level2
 {
     font-weight: normal;
