@@ -543,7 +543,11 @@ fieldSet legend, legend
     width: 100%;
 }
 
-
+#MPOuter 
+{
+    margin:0em;
+    border-width: 0em;
+}
 /* IDs */
 #MPAuxNav ul.level1 li a.level1
 {
