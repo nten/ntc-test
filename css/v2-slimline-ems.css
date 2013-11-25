@@ -450,6 +450,10 @@ fieldSet legend, legend
     background-color: #FFFFFF;
     color: #333333;
 }
+.MPHeader div
+{
+    padding: 0em;
+}
 .profileContentSpacing div.ContentItemHtml, div.ContentUserControl
 {
     padding: 0;
