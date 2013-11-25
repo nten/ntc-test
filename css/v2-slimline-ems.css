@@ -1,5 +1,6 @@
 /* Default HTML elements */
-body {
+body
+{
     font-size:100%;
 }
 
@@ -43,7 +44,7 @@ fieldSet legend, legend
 .AdvancedSearch fieldset, fieldset, FieldSet
 {
     background-color: #EBEBEB;
-    border: 1px solid #666666;
+    border: 1px solid #777;
     margin-bottom: 0.2em;
     margin-top: 0.3em;
     margin-left: 1em;
@@ -546,7 +547,7 @@ fieldSet legend, legend
 #MPOuter 
 {
     margin:0em;
-    border-width: 0em;
+    border: none;
 }
 /* IDs */
 #MPAuxNav ul.level1 li a.level1
