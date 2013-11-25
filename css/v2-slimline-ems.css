@@ -558,7 +558,10 @@ fieldSet legend, legend
 {
     border-right: none;
 }
-
+#MPHeader
+{
+    margin:0.2em;
+}
 #MPSearchBlock .Watermark, #MPSearchBlock .TextBox
 {
     /* border: 1px solid #C4C4C4 !important; */
