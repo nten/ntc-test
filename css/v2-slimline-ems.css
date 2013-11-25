@@ -668,7 +668,12 @@ fieldSet legend, legend
 {
     border-right: 1px solid #FFFFFF;
 }
-
+#btnCancel
+{
+    color: red;
+    border-radius: 1em;
+    padding:1em;
+}
 #SideMenuStatic, #SideMenuStatic ul
 {
     width: 100% !important;
