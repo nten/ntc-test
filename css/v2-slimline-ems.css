@@ -685,13 +685,20 @@ fieldSet legend, legend
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
-#BottomMenu ul.level1 li, table.FatFooterMenu ul.level1 li, .SuperMegaMenu li
+#BottomMenu ul.level1 li,
+table.FatFooterMenu ul.level1 li,
+.SuperMegaMenu li
 {
     list-style: none outside none;
 }
 #BottomMenu ul.level1 li.static
 {
     border-right: 1px solid #FFFFFF;
+}
+#ButtonBarMenu ul.level1 li.has-popup a,
+#ButtonBarMenu ul.level1 li.static a
+{
+    padding: 1em;
 }
 #btnCancel
 {
