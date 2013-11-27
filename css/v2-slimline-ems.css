@@ -549,6 +549,11 @@ fieldSet legend, legend
 {
     width: 100%;
 }
+#ButtonBarMenu ul.level1 li.has-popup a,
+#ButtonBarMenu ul.level1 li.static a
+{
+    padding: 0;
+}
 #MPOuterMost
 {
     width: 100%;
