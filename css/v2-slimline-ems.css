@@ -547,11 +547,17 @@ fieldSet legend, legend
 {
     width: 100%;
 }
-
+#MPOuterMost
+{
+    width: 100%;
+    max-width: 1024px;
+}
 #MPOuter 
 {
     margin:0em;
     border: none;
+    margin:auto;
+    width:100%;
 }
 /* IDs */
 #MPAuxNav ul.level1 li a.level1
