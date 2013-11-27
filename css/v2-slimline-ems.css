@@ -700,6 +700,8 @@ table.FatFooterMenu ul.level1 li,
 {
     padding: 1em !important;
     /*Todo: Figure out how do do this withouth !important */
+    font-size: 0.57em;
+    font-weight: bold;
 }
 #btnCancel
 {
