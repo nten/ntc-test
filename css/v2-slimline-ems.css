@@ -699,6 +699,7 @@ table.FatFooterMenu ul.level1 li,
 #ButtonBarMenu ul.level1 li.static a
 {
     padding: 1em !important;
+    /*Todo: Figure out how do do this withouth !important */
 }
 #btnCancel
 {
